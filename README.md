@@ -1,6 +1,6 @@
-# neo.mjs workshop for experienced WebDevs
+# neo.mjs workshops
 
-Welcome to the code repository for the neo.mjs workshops for experienced web developers!
+Welcome to the code repository for the neo.mjs workshops!
 
 In this workshop series, we aim to **teach the community** of interested developers how to **build great apps with neo**! If you are interested in an invite, [join our Slack workspace](https://join.slack.com/t/neomjs/shared_invite/zt-1btl4kuc7-~FOMG0iGOVi_K7sjRbY3rA) and ping us!
 
