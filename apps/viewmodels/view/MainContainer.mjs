@@ -15,12 +15,12 @@ import modifyWidth from './Util.mjs';
  */
 class MainContainer extends Viewport {
     static getConfig() {return {
-        /*
+        /**
          * @member {String} className='ViewModels.view.MainContainer'
          * @protected
          */
         className: 'ViewModels.view.MainContainer',
-        /*
+        /**
          * @member {Boolean} autoMount=true
          */
         autoMount: true,
@@ -28,7 +28,7 @@ class MainContainer extends Viewport {
          * @member {Neo.controller.Component} controller=MainContainerController
          */
         controller: MainContainerController,
-        /*
+        /**
          * @member {Object[]} items
          */
         items: [{
@@ -95,7 +95,7 @@ class MainContainer extends Viewport {
                 width: data => data.offset + data.width
             }
         }],
-        /*
+        /**
          * @member {Object} layout={ntype:'fit'}
          */
         layout: {ntype: 'vbox', align: 'start'},

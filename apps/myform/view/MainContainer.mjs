@@ -13,7 +13,7 @@ import MainContainerController from './MainContainerController.mjs';
 class MainContainer extends Viewport {
     static getConfig() {
         return {
-            /*
+            /**
              * @member {String} className='MyForm.view.MainContainer'
              * @protected
              */
@@ -23,11 +23,11 @@ class MainContainer extends Viewport {
             controller: MainContainerController,
 
             cls: ['main-container', 'neo-viewport'],
-            /*
+            /**
              * @member {Boolean} autoMount=true
              */
             autoMount: true,
-            /*
+            /**
              * @member {Object[]} items
              */
             items: [{
@@ -45,7 +45,7 @@ class MainContainer extends Viewport {
                 items: [{
                     module: TextField,
 
-                    bind: { value: (data) => 
+                    bind: { value: (data) =>
                         data.form.name + ' ' + data.lastName.toLowerCase()
                     }
                 }, {
@@ -57,7 +57,7 @@ class MainContainer extends Viewport {
                     iconCls: 'fa fa-home'
                 }]
             }],
-            /*
+            /**
              * @member {Object} layout={ntype:'fit'}
              */
             layout: { ntype: 'fit' }

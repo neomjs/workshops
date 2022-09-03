@@ -6,7 +6,7 @@ import ComponentModel from '../../../node_modules/neo.mjs/src/model/Component.mj
  */
 class MainContainerModel extends ComponentModel {
     static getConfig() {return {
-        /*
+        /**
          * @member {String} className='MyForm.view.MainContainer'
          * @protected
          */

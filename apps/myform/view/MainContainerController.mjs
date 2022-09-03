@@ -7,18 +7,18 @@ import Dialog from '../../../node_modules/neo.mjs/src/dialog/Base.mjs';
  */
 class MainContainerController extends ComponentController {
     static getConfig() {return {
-        /*
+        /**
          * @member {String} className='MyForm.view.MainContainer'
          * @protected
          */
-        className: 'MyForm.view.MainContainerController',        
+        className: 'MyForm.view.MainContainerController',
     }}
 
     onAcceptClick(data) {
         let button = data.component,
             form = this.component.down('form-container'),
-            vm = this.getModel();        
-        
+            vm = this.getModel();
+
     }
 }
 

@@ -9,16 +9,16 @@ import LoginFormContainer from './LoginFormContainer.mjs';
  */
 class MainContainer extends Viewport {
     static getConfig() {return {
-        /*
+        /**
          * @member {String} className='LoginHelloWorld.view.MainContainer'
          * @protected
          */
         className: 'LoginHelloWorld.view.MainContainer',
-        /*
+        /**
          * @member {Boolean} autoMount=true
          */
         autoMount: true,
-        /*
+        /**
          * @member {Object[]} items
          */
         items: [{
@@ -28,7 +28,7 @@ class MainContainer extends Viewport {
             style : {flex: 'none', margin: '20px'},
 
             itemDefaults: {
-                module: Component,                
+                module: Component,
                 style : {padding: '20px'},
             },
 
@@ -47,7 +47,7 @@ class MainContainer extends Viewport {
                 vdom: {innerHTML: 'Have fun creating something awesome!'}
             }]
         }],
-        /*
+        /**
          * @member {Object} layout={ntype:'fit'}
          */
         layout: {ntype: 'fit'}
