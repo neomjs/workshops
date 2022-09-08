@@ -26,16 +26,7 @@ class BadgeButton extends Button {
         {tag: 'button', type: 'button', cn: [
             {tag: 'span', cls: ['neo-button-glyph']},
             {tag: 'span', cls: ['neo-button-text']},
-            {tag: 'span', cls: ['neo-button-badge'], style: {
-                color     : 'white',
-                marginLeft: 'auto',
-                position  : 'absolute',
-                top       : '-10px',
-                right: '-10px',
-                backgroundColor: 'red',
-                borderRadius: '5px',
-                padding: '3px'
-            }}
+            {tag: 'span', cls: ['neo-button-badge']}
         ]}
     }}
 
