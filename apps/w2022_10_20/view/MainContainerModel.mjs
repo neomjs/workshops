@@ -1,4 +1,4 @@
-import Component from '../../../node_modules/neo.mjs/src/model/Component.mjs';
+import Component  from '../../../node_modules/neo.mjs/src/model/Component.mjs';
 import MovieStore from '../store/Movies.mjs';
 
 /**

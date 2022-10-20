@@ -1,7 +1,7 @@
 import MainContainerController from './MainContainerController.mjs';
 import MainContainerModel      from './MainContainerModel.mjs';
+import TableContainer          from './TableContainer.mjs';
 import Viewport                from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
-import TableContainer from './TableContainer.mjs';
 
 /**
  * @class W2022_10_20.view.MainContainer
